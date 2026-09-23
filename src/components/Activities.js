@@ -33,7 +33,7 @@ const Activities = () => {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{act.title}</h3>
                 <p className="text-gray-600 mb-6">{act.desc}</p>
-                <a href="#" className="text-gray-900 font-bold flex items-center gap-2 hover:text-[#FF671F] transition-colors">
+                <a href="#details" className="text-gray-900 font-bold flex items-center gap-2 hover:text-[#FF671F] transition-colors">
                   View Details <ArrowRight className="w-4 h-4" />
                 </a>
               </div>

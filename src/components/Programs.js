@@ -27,7 +27,7 @@ const Programs = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">{prog.title}</h3>
               <p className="text-gray-600 mb-6">{prog.desc}</p>
-              <a href="#" className="text-[#FF671F] font-bold flex items-center gap-2 hover:text-[#e55c1b]">
+              <a href="#read-more" className="text-[#FF671F] font-bold flex items-center gap-2 hover:text-[#e55c1b]">
                 Read More <ChevronRight className="w-4 h-4" />
               </a>
             </div>
