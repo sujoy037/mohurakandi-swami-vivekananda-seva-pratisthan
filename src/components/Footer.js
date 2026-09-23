@@ -115,8 +115,8 @@ const Footer = () => {
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Mohurakandi Swami Vivekananda Seva Pratisthan. All rights reserved.</p>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#terms" className="hover:text-white transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
