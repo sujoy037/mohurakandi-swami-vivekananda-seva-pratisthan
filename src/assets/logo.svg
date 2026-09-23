@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg-circle { fill: #FFF9F5; stroke: #FF671F; stroke-width: 6; }
+      .inner-ring { fill: none; stroke: #FF671F; stroke-width: 2; stroke-dasharray: 6 4; }
+      .sun-ray { stroke: #FF671F; stroke-width: 3; stroke-linecap: round; }
+      .sun-core { fill: #FF671F; }
+      .main-text { font-family: 'Hind Siliguri', 'Bengali MN', serif; font-weight: bold; fill: #FF671F; font-size: 52px; text-anchor: middle; }
+      .sub-text { font-family: sans-serif; font-weight: 800; fill: #1F2937; font-size: 13px; text-anchor: middle; letter-spacing: 1px; }
+      .est-text { font-family: sans-serif; font-weight: bold; fill: #FF671F; font-size: 11px; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <!-- Outer Circular Badge Frame -->
+  <circle cx="250" cy="250" r="220" class="bg-circle" />
+  <circle cx="250" cy="250" r="202" class="inner-ring" />
+
+  <!-- Rising Sun and Rays -->
+  <g transform="translate(250, 160)">
+    <!-- Sun Rays -->
+    <line x1="0" y1="-30" x2="0" y2="-75" class="sun-ray" />
+    <line x1="-30" y1="-25" x2="-65" y2="-60" class="sun-ray" />
+    <line x1="30" y1="-25" x2="65" y2="-60" class="sun-ray" />
+    <line x1="-60" y1="-10" x2="-105" y2="-30" class="sun-ray" />
+    <line x1="60" y1="-10" x2="105" y2="-30" class="sun-ray" />
+    
+    <!-- Sun Body Semi-circle -->
+    <path d="M -35 0 A 35 35 0 0 1 35 0 Z" class="sun-core" />
+  </g>
+
+  <!-- Central Bengali Title: দিব্যজ্যোতি -->
+  <text x="250" y="275" class="main-text">দিব্যজ্যোতি</text>
+
+  <!-- Horizontal Divider Line -->
+  <line x1="160" y1="310" x2="340" y2="310" stroke="#FF671F" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Organization Names -->
+  <text x="250" y="345" class="sub-text">মহুরাকান্দি স্বামী বিবেকানন্দ সেবা প্রতিষ্ঠান</text>
+  <text x="250" y="370" class="est-text">(শ্রী শ্রী রামকৃষ্ণ আশ্রম) • Estd. 1982</text>
+</svg>
